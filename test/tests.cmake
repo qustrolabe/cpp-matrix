@@ -2,7 +2,7 @@
 add_executable(
   test
   # Tests
-  test/test_matrix2d.cpp test/test_matrix2darray.cpp)
+  test/test_matrix2d.cpp test/test_matrix2darray.cpp test/test_vec.cpp)
 
 target_include_directories(test PUBLIC ${Catch2_INCLUDE_DIRS})
 target_include_directories(test PUBLIC src)
