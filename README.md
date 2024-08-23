@@ -55,4 +55,5 @@ cmake --build .
  ```
 
 ### Requirements
--- C++23
+- C++23
+- Catch2
